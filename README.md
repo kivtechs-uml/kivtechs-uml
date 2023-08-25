@@ -11,6 +11,6 @@ graph
      kivtechs_dashboard ----> BASIC_IMAGE_API
      kivtechs_dashboard ----> KNEOGINI_YOUTUBE
      kivtechs_dashboard ----> KNEOGINI_MAIN
-     kivtechs_dashboard_built ----> ADOBE
+
 
 ```
