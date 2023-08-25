@@ -13,7 +13,7 @@
 
 ```mermaid
 graph LR
-    A[Square Rect] -- Link text --> B((Circle))
+    KIVTECHS.cloud[Square Rect] -- cloudfare --> KIVTECHS.cloud((Circle))
     A --> C(Round Rect)
     B --> D{Rhombus}
     C --> D
