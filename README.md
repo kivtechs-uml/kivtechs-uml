@@ -13,9 +13,10 @@
 
 ```mermaid
 graph LR
-    KIVTECHS.cloud[Square Rect] -- cloudfare --> KIVTECHS.cloud((Circle))
-    A --> C(Round Rect)
-    B --> D{Rhombus}
-    C --> D
+    KIVTECHS.cloud[Square Rect] -- cloudfare --> KIVTECHS Dashboard((Circle))
+    KIVTECHS Dashboard --> KNEOGINI(Round Rect)
+    KIVTECHS Dashboard --> CHATBOT IVORY{Rhombus}
+    KIVTECHS Dashboard --> CHATBOT OLIVE {Rhombus}
+    KIVTECHS Dashboard --> TEXT to SPEECH {Rhombus}
 
 ```
