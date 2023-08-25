@@ -21,7 +21,7 @@ graph
 
 ```mermaid
 flowchart TD
-    A[kivtechs.cloud] --> | cloudfare|  B(kivtechs_dashboard)
+    A[kivtechs cloud] --> | cloudfare|  B(kivtechs dashboard)
 
 
 
