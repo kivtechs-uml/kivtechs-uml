@@ -4,5 +4,5 @@
 
 ```mermaid
 graph LR
-    KIVTECHS.cloud[Square Rect] -- cloudfare --> KIVTECHS Dashboard((Circle))
+    KIVTECHS.cloud -- cloudfare --> KIVTECHS Dashboard
 ```
