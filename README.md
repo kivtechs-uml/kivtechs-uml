@@ -20,8 +20,8 @@ graph
 
 
 ```mermaid
-graph
-    A[kivtechs.cloud] ----> | cloudfare|  B[kivtechs_dashboard]
+flowchart TD
+    A[kivtechs.cloud] --> | cloudfare|  B(kivtechs_dashboard)
 
 
 
