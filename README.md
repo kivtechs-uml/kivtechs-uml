@@ -4,5 +4,5 @@
 
 ```mermaid
 graph LR
-    KIVTECHS.cloud -- cloudfare --> KIVTECHS Dashboard
+    A -- cloudfare --> B
 ```
