@@ -13,12 +13,16 @@ flowchart TD
     B[kivtechs dashboard] ----> |API| E[IMAGE]
     B[kivtechs dashboard] ----> |YOUTUBE| I[fab:fa-youtube KNEOGINI]
     B[kivtechs dashboard] ----> |MAIN| G[KNEOGINI_MAIN]
-    B --auth-->D[(Database)]
+    B --auth-->D[(Firebase)]
     end
     subgraph AUTH
-      A1(user) <-- login --> D[(Database)] <-- auth --> U{{ auth:TRUE }}
+      A1(user) <-- login --> D[(Firebase)] <-- auth --> U{{ auth:TRUE }}
      A1  <-- AUTH --> U
      end
+subgraph logs
+ D[(Firebase)]
+end
+`
   
     
 
