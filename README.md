@@ -11,7 +11,7 @@ flowchart TD
     B[kivtechs dashboard] ----> |chatbot| C2[OLIVE]
     B[kivtechs dashboard] ----> |TTS| H[TTS]
     B[kivtechs dashboard] ----> |API| E[IMAGE]
-    B[kivtechs dashboard] ----> |YOUTUBE| F[fa:fab:fa-youtube KNEOGINI]
+    B[kivtechs dashboard] ----> |YOUTUBE| I[fa:fab:fa-youtube KNEOGINI]
     B[kivtechs dashboard] ----> |MAIN| G[KNEOGINI_MAIN]
     B --auth-->D[(Database)]
     end
