@@ -16,8 +16,8 @@ flowchart TD
     B --auth-->D[(Database)]
     end
     subgraph AUTH
-      A1(user) <-- login --> D[(Database)] <-- auth --> C1{{ auth:TRUE }}
-     A1  <-- AUTH --> C1
+      A1(user) <-- login --> D[(Database)] <-- auth --> U{{ auth:TRUE }}
+     A1  <-- AUTH --> U
      end
   
     
