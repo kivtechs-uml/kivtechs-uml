@@ -20,9 +20,9 @@ flowchart TD
      A1  <-- AUTH --> U
      end
 subgraph logs
- D[(Firebase)]
+ B --logs --> D[(Firebase)]
 end
-`
+
   
     
 
